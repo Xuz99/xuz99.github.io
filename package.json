@@ -1,0 +1,30 @@
+{
+  "name": "xuz99-portfolio-site",
+  "version": "1.0.0",
+  "description": "A simple and static portfolio website to showcase my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xuz99/xuz99.github.io.git"
+  },
+  "keywords": [
+    "tailwind",
+    "static",
+    "minimal",
+    "portfolio"
+  ],
+  "author": "John Davidson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xuz99/xuz99.github.io/issues"
+  },
+  "homepage": "https://github.com/Xuz99/xuz99.github.io#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.1"
+  }
+}
