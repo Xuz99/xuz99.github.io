@@ -4,7 +4,8 @@
   "description": "A simple and static portfolio website to showcase my projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx ws -v -p 3000"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/Xuz99/xuz99.github.io#readme",
   "dependencies": {
     "autoprefixer": "^10.1.0",
+    "local-web-server": "^4.2.1",
     "postcss": "^8.2.1",
     "tailwindcss": "^2.0.1"
   }
