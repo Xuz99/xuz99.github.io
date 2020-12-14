@@ -1,0 +1,32 @@
+@font-face {
+  font-family: FiraSans-Light;
+  src: url(fira_sans/FiraSans-Light.ttf);
+}
+@font-face {
+  font-family: FiraSans-Medium;
+  src: url(fira_sans/FiraSans-Medium.ttf);
+}
+@font-face {
+  font-family: FiraSans-Regular;
+  src: url(fira_sans/FiraSans-Regular.ttf);
+}
+body {
+	background-color: #171922;
+	font-family: FiraSans-Regular, Helvetica, Arial, sans-serif;
+}
+header {
+	font-family: FiraSans-Light, Helvetica, Arial, sans-serif;
+}
+footer {
+	font-family: FiraSans-light, Helvetica, Arial, sans-serif;
+	background: linear-gradient(#171922, #151621);
+}
+.hello-h1 {
+	font-family: FiraSans-Medium, Arial, Helvetica, sans-serif; 
+	background: linear-gradient(#99746F, #14151E);
+	-webkit-text-fill-color: transparent; 
+	-webkit-background-clip: text; 
+}
+.jd-text-colour {
+	color: #99746F;
+}
