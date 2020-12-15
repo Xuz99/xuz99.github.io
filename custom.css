@@ -1,15 +1,29 @@
+/* Start Custom CSS file */
+
+/* Custom Fonts */
 @font-face {
   font-family: FiraSans-Light;
   src: url(fira_sans/FiraSans-Light.ttf);
+}
+.firasans-lt {
+	font-family: FiraSans-Light, Helvetica, Arial, sans-serif;
 }
 @font-face {
   font-family: FiraSans-Medium;
   src: url(fira_sans/FiraSans-Medium.ttf);
 }
+.firasans-md {
+	font-family: FiraSans-Medium, Helvetica, Arial, sans-serif;
+}
 @font-face {
   font-family: FiraSans-Regular;
   src: url(fira_sans/FiraSans-Regular.ttf);
 }
+.firasans-rg {
+	font-family: FiraSans-Regular, Helvetica, Arial, sans-serif;
+}
+
+/* Start of selector classes */
 body {
 	background-color: #171922;
 	font-family: FiraSans-Regular, Helvetica, Arial, sans-serif;
@@ -21,6 +35,27 @@ footer {
 	font-family: FiraSans-light, Helvetica, Arial, sans-serif;
 	background: linear-gradient(#171922, #151621);
 }
+
+.underlined-animate::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	bottom: 0;
+	left: 0;
+	background-color: #99746F;
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.underlined-animate:hover::before {
+	visibility: visible;
+	transform: scaleX(1);
+  }
+
+/*Start of Custom Clases */
+
 .hello-h1 {
 	font-family: FiraSans-Medium, Arial, Helvetica, sans-serif; 
 	background: linear-gradient(#99746F, #14151E);
