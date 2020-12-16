@@ -25,7 +25,7 @@
 
 /* Start of selector classes */
 body {
-	background-color: #171922;
+	background: linear-gradient( #0c0b1b, #151621);
 	font-family: FiraSans-Regular, Helvetica, Arial, sans-serif;
 }
 header {
@@ -33,14 +33,14 @@ header {
 }
 footer {
 	font-family: FiraSans-light, Helvetica, Arial, sans-serif;
-	background: linear-gradient(#171922, #151621);
+	
 }
 
-.underlined-animate {
+a {
 	position: relative;
 }
 
-.underlined-animate::after {
+a::after {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -53,7 +53,7 @@ footer {
 	transition: all 0.3s ease-in-out 0s;
 }
 
-.underlined-animate:hover::after {
+a:hover::after {
 	visibility: visible;
 	transform: scaleX(1);
 	background-color: #99746F;
