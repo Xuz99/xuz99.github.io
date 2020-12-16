@@ -31,6 +31,12 @@ body {
 header {
 	font-family: FiraSans-Light, Helvetica, Arial, sans-serif;
 }
+.content-bg {
+	background-image: url('/images/aboutme-bg.jpg');
+	background-repeat:repeat-y;
+	background-attachment: scroll;
+	object-fit: fill;
+}
 footer {
 	font-family: FiraSans-light, Helvetica, Arial, sans-serif;
 	
@@ -81,7 +87,7 @@ a:hover::after {
 .wordCarousel li {
 			padding: 0 10px;
             height: 45px;
-            margin-bottom: 45px;
+            margin-bottom: 40px;
             display: block;
 		}
 

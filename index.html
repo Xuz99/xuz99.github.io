@@ -31,14 +31,14 @@
 <body>
 <header class="text-white text-center mt-10">
 	<h1 class="flex flex-row justify-center text-6xl hello-h1 wordCarousel jd-text-colour">
-			<div> 
-				<ul class="flip4"> 
-					<li>Xin chào</li>
-					<li>Cześć</li>
-					<li>Hola</li>  
-					<li>Hello</li>
-				</ul>
-			</div>
+		<div> 
+			<ul class="flip4"> 
+				<li>Xin chào</li>
+				<li>Cześć</li>
+				<li>Hola</li>  
+				<li>Hello</li>
+			</ul>
+		</div>
 	</h1>
 	<p class="text-4xl jd-text-colour mx-5 mt-10">my name is John.<br/> I am a 
 		<span class="text-red-500 hover:shadow-outline hover:text-red-600">
@@ -50,51 +50,74 @@
 		<span class="text-purple-500 hover:shadow-outline hover:text-purple-600">
 		writer</span>.
 	</p>
-	<p class="text-lg text-white mx-5 mt-10">My portfolio of work includes:</p>
+	<button id="Btn" type="button" class="cursor-pointer mt-5 p-2 rounded-lg transition duration-200 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110">
+		about me
+	</button>
+	<section id="Aboutme" class="hidden md:mx-64 content-bg p-5 m-5 shadow-lg rounded-lg">
+		<div class="grid md:grid-cols-2 bg-gray-900 opacity-90 text-white p-10 rounded">
+			<div>
+				<img class="rounded m-5 mt-0 mx-auto md:w-1/2 outline-black" src="images/john.jpg" alt="A picture of the owner of the webiste, John Davidson">
+				<h2 class="jd-text-colour firasans-md text-2xl text-center">John J Davidson</h2>
+				<div class="flex flex-row justify-center space-x-5 p-5">
+					<a class="cursor-pointer" href="https://github.com/Xuz99" target="_blank">
+						<img class="w-16 h-16 mb-2 fill-current text-white"  src="images/github-icon.svg" alt="John J D GitHub account">
+					</a>
+					<a class="cursor-pointer" href="mailto:" target="_blank">
+						<img class="w-16 h-16 mb-2" src="images/email-icon.svg" alt="Email the guy who made this site">
+					</a>
+				</div>
+			</div>
+			<article class="leading-7 md:text-2xl text-left">
+				<p class="mb-4">I am a person with a stubborn will to learn and improve my skills in any aspect of a project I am working on. This passion to really push myself to be versatile when necessary has lead me to become an “all-rounder” mind-set.</p>
+				<p class="">Pulling from retail and customer front facing positions, to working as a developer in a start-up to understanding leadership as a supervisor and connecting them in my mind to provide a high quality standard to the team I am working with. I also aim to contribute to a working culture that makes people happy to work with me and improve the team atmosphere while facing work challenges. I strive to write DRY and KISS code pulling from my experience working with OOP and FP languages.  </p>	
+			</article>
+		</div>
+	</section>
+	<p class="text-3xl text-white mx-5 mt-10">My portfolio of work includes:</p>
 </header>
-<main class="mt-20">
-<!-- Row 1 -->
-	<div class="grid md:grid-cols-3 gap-20 flex-col md:mt-0 md:space-y-0 space-y-5 mt-5 mx-5 md:mx-10">
-		<figure class="shadow-lg bg-black text-white overflow-hidden rounded-lg">
-		 	<a class="cursor-pointer" href="https://github.com/Xuz99" target="_blank">
-				<img src="/images/github.png" alt="Github account" class="w-full h-60 object-cover hover:opacity-75 ease-in duration-200">
-			</a>
-			<figcaption class="m-4 leading-7">
+	<main class="mt-20">
+	<!-- Row 1 -->
+		<div class="grid md:grid-cols-3 gap-20 flex-col md:mt-0 md:space-y-0 space-y-5 mt-5 mx-5 md:mx-10">
+			<figure class="shadow-lg bg-black text-white overflow-hidden rounded-lg">
 				<a class="cursor-pointer" href="https://github.com/Xuz99" target="_blank">
-					<span class="jd-text-colour firasans-md text-xl">GitHub Profile</span>
+					<img src="/images/github.png" alt="Github account" class="w-full h-60 object-cover hover:opacity-75 ease-in duration-200">
 				</a>
-				<span class="block">My personal Github profile with a collection of my active repos.</span>
-			</figcaption>
-		</figure>
-		<figure class="shadow-lg bg-black text-white overflow-hidden rounded-lg">
-			<a class="cursor-pointer" href="http://invertedmounta.in/" target="_blank">
-				<img src="/images/inverted.png" alt="Inverted Mountain" class="w-full h-60 object-cover hover:opacity-75 ease-in duration-200">
-			</a>
-			<figcaption class="m-4 leading-7">
-				<a class="cursor-pointer " href="http://invertedmounta.in/" target="_blank">
-					<span class="jd-text-colour firasans-md text-xl">inVERTed mOUNTAIn</span>
+				<figcaption class="m-4 leading-7">
+					<a class="cursor-pointer" href="https://github.com/Xuz99" target="_blank">
+						<span class="jd-text-colour firasans-md text-xl">GitHub Profile</span>
+					</a>
+					<span class="block">My personal Github profile with a collection of my active repos.</span>
+				</figcaption>
+			</figure>
+			<figure class="shadow-lg bg-black text-white overflow-hidden rounded-lg">
+				<a class="cursor-pointer" href="http://invertedmounta.in/" target="_blank">
+					<img src="/images/inverted.png" alt="Inverted Mountain" class="w-full h-60 object-cover hover:opacity-75 ease-in duration-200">
 				</a>
-				<span class="block">
-					Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-yellow-500">Phoenix </a>backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500">Tailwind</a> and made with love by the <a href="https://itch.io/" class="text-red-500">indie games community</a>.
+				<figcaption class="m-4 leading-7">
+					<a class="cursor-pointer " href="http://invertedmounta.in/" target="_blank">
+						<span class="jd-text-colour firasans-md text-xl">inVERTed mOUNTAIn</span>
+					</a>
+					<span class="block">
+						Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-yellow-500">Phoenix </a>backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500">Tailwind</a> and made with love by the <a href="https://itch.io/" class="text-red-500">indie games community</a>.
+					</span>
+				</figcaption>
+			</figure>
+			<figure class="shadow-lg bg-black text-white overflow-hidden rounded-lg opacity-50">
+				<span class="cursor-not-allowed" href="https://www.youtube.com/watch?v=HMLguRWAMSc" target="_blank">
+					<img src="/images/break.png" alt="Short Breaks Blog" class="w-full h-60 object-cover">
 				</span>
-			</figcaption>
-		</figure>
-		<figure class="shadow-lg bg-black text-white overflow-hidden rounded-lg opacity-50">
-			<span class="cursor-not-allowed" href="https://www.youtube.com/watch?v=HMLguRWAMSc" target="_blank">
-				<img src="/images/break.png" alt="Short Breaks Blog" class="w-full h-60 object-cover">
-			</span>
-			<figcaption class="m-4 leading-7">
-				<span class="cursor-not-allowed" href="https://github.com/Xuz99" target="_blank">
-					<span class="jd-text-colour firasans-md text-xl">Short Breaks</span>
-				</span>
-				<span class="block"><span class="line-through opacity-50">My personal blog called "Short Breaks" where I post writing content weekly about tech and interesting topics I like to write about.</span> Currently under construction!</span>
-			</figcaption>
-		</figure>
-	</div>
-<!-- Row 2 -->
-</main>
+				<figcaption class="m-4 leading-7">
+					<span class="cursor-not-allowed" href="https://github.com/Xuz99" target="_blank">
+						<span class="jd-text-colour firasans-md text-xl">Short Breaks</span>
+					</span>
+					<span class="block"><span class="line-through opacity-50">My personal blog called "Short Breaks" where I post writing content weekly about tech and interesting topics I like to write about.</span> Currently under construction!</span>
+				</figcaption>
+			</figure>
+		</div>
+	<!-- Row 2 -->
+	</main>
 <footer class="align-middle text-center text-gray-500 mt-20 p-5 leading-10">
-	<p>Welcome to my footer! -//- Copyright © John D 2019 - <span id="autoyear"></span>.</p> 
+	<p>Welcome to my footer! -//- Copyright © John D 2019 - <span id="autoyear"></span></p> 
 	<p>This portfolio website was
 		designed using <a href="https://www.invisionapp.com/" class="text-pink-500">InVision</a>, 
 		coded with <a href="https://www.sublimetext.com/3" class="text-yellow-500">SublimeText3</a>,
@@ -102,9 +125,22 @@
 		hosted on <a href="https://pages.github.com/" class="text-gray-300">GitHub Pages</a>
 	</p>
 	<script type="text/javascript">
-		const d = new Date(); 
-		const y = d.getFullYear(); 
-		document.getElementById("autoyear").innerHTML = y;  
+	// auto date
+		const date = new Date(); 
+		const year = date.getFullYear(); 
+		document.getElementById("autoyear").innerHTML = year;
+	// hide about me
+		const doc = document;
+		const toggleBtn = doc.querySelector("#Btn");
+		const aboutme = doc.querySelector("#Aboutme");
+
+		toggleBtn.addEventListener("click", (event) => {
+		if (aboutme.classList.contains("hidden")) {
+			aboutme.classList.remove("hidden");
+		} else {
+			aboutme.classList.add("hidden");
+		}
+		});
 	</script>
 </footer>
 </body>
