@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="custom.css">
 	<!-- Link preview -->
 	<!-- Primary Meta Tags -->
-	<title>Bespoke website/app development in Edinburgh, Scotland, UK for individuals and small to medium business. </title>
+	<title>Bespoke website/app development in Edinburgh, Scotland, UK for individuals and small to medium business</title>
 	<meta name="title" content="Bespoke website/app development in Edinburgh, Scotland, UK for individuals and small to medium business. ">
 	<meta name="description" content="A portfolio website for John D, showcasing creative web projects in OOP/FP languages (Elm, JS, PHP, Elixir) and using frameworks/CMSs such as Tailwind, React, Ramada, and CMSs WordPress and Laravel.">
 	<!-- Open Graph / Facebook -->
@@ -40,6 +40,8 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+	<script src="https://ig.instant-tokens.com/users/c0861264-b28b-47aa-9c53-937a3f99e44f/instagram/17841403831661412/token.js?userSecret=hl3c6559495pu0x14cxcy"></script>
+	<script src="instafeed.min.js"></script>
 </head>
 <body>
 <header class="text-white text-center mt-10">
@@ -63,16 +65,16 @@
 		<!-- <span class="text-purple-500 hover:shadow-outline hover:text-purple-600">
 			writer</span>. -->
 	</p>
-	<button id="Btn" type="button" class="cursor-pointer mt-5 p-2 rounded-lg transition duration-200 ease-in-out bg-blue-900 hover:bg-blue-600 transform hover:-translate-y-1 hover:scale-110">
+	<button id="Btn" type="button" class="cursor-pointer mt-5 p-2 px-5 rounded-xl transition duration-200 ease-in-out bg-blue-900 hover:bg-blue-600 transform hover:-translate-y-1 hover:scale-110">
 		about me
 	</button>
 	<section id="Aboutme" class="hidden md:mx-64 content-bg p-5 m-5 shadow-lg rounded-lg">
 		<div class="grid md:grid-cols-2 bg-gray-900 opacity-90 text-white p-10 rounded">
 			<div>
 				<img class="rounded m-5 mt-0 mx-auto md:w-1/2 outline-black" src="images/john.jpg" alt="A picture of the owner of the webiste, John Davidson">
-				<h2 class="jd-text-colour firasans-md text-2xl text-center">John J Davidson</h2>
+				<h2 class="jd-text-colour firasans-md md:text-3xl text-xl text-center">John J Davidson</h2>
 				<div class="flex flex-row justify-center space-x-5 p-5">
-					<a class="cursor-pointer" href="https://github.com/Xuz99" target="_blank">
+					<a class="cursor-pointer animited-underline" href="https://github.com/Xuz99" target="_blank">
 						<img class="w-16 h-16 mb-2 fill-current text-white"  src="images/github-icon.svg" alt="John J D GitHub account">
 					</a>
 					<a class="cursor-pointer" href="mailto:" target="_blank">
@@ -82,7 +84,7 @@
 			</div>
 			<article class=" md:text-2xl text-left">
 				<p class="leading-9 mb-4">I am a developer/designer in learning, and learning all the time. I love to work on projects that aim to solve problems and make life easier. I also enjoy and I strive to write DRY and KISS code pulling from my experience working with OOP and FP languages. </p>
-				<p class="leading-9">I am based in Edinburgh, Scotland and have travelled at just a wee bit around, but plan to code on the road one day.
+				<p class="leading-9">I am based in Edinburgh, Scotland and have travelled just a wee bit around, but plan to code on the road one day.
 					If you’d like to contact me about work, a project, a bug you’ve found, or even to have a coffee over a webcall (or in person), Please get in touch!
 				</p>	
 			</article>
@@ -92,7 +94,7 @@
 </header>
 	<main class="mt-20">
 	<!-- Row 1 -->
-		<div class="grid md:grid-cols-3 gap-20 flex-col md:mt-0 md:space-y-0 space-y-5 mt-5 mx-5 md:mx-10">
+		<section class="grid md:grid-cols-3 gap-20 flex-col md:mt-0 md:space-y-0 space-y-5 mt-5 mx-5 md:mx-10">
 			<figure class="shadow-lg bg-black text-white overflow-hidden rounded-lg">
 				<a class="cursor-pointer" href="https://github.com/Xuz99" target="_blank">
 					<img src="/images/github.svg" alt="Github account" class="w-full h-60 object-cover hover:opacity-75 ease-in duration-200">
@@ -128,8 +130,37 @@
 					<span class="block"><span class="line-through opacity-50">My personal blog called "Short Breaks" where I post writing content weekly about tech and interesting topics I like to write about.</span> Currently under construction!</span>
 				</figcaption>
 			</figure>
-		</div>
+		</section>
 	<!-- Row 2 -->
+		<section class="mt-20">
+		<h2 class="text-white text-6xl text-center mb-5">My travels</h2>
+		<hr class="mb-10">
+			<div id="instafeed" class="grid md:grid-cols-4 gap-10 flex-col  md:mt-0 md:space-y-0 space-y-5 mx-5 md:mx-10">
+				<script type="text/javascript">
+					var feed = new Instafeed({
+					accessToken: InstagramToken,
+					limit: 12,
+					template: `<figure class="photo shadow-lg bg-black text-white overflow-hidden rounded-lg">
+							<a class="cursor-pointer" href="{{link}}" target="_blank">
+								<img src="{{image}}" alt="" class="w-full h-60 object-cover hover:opacity-75 ease-in duration-200">
+							</a>
+							<figcaption class="m-4 leading-7">
+								<span class="block">{{caption}}</span>
+							</figcaption>
+							</figure>    
+							`,
+						});
+					feed.run();
+				</script>
+			</div>
+			<div class="flex justify-center">
+				<a class="hide-a" href="https://www.instagram.com/not_vagabond/" target="_blank">
+					<button type="button" class="cursor-pointer text-white text-2xl mt-10 p-2 px-5 rounded-xl transition duration-200 ease-in-out insta-bg-g transform hover:-translate-y-1 hover:scale-110">
+						My instagram
+					</button>
+				</a>
+			</div>
+		</section>	
 	</main>
 <footer class="align-middle text-center text-gray-500 mt-20 p-5 leading-10">
 	<p>Welcome to my footer! -//- Copyright © John D 2019 - <span id="autoyear"></span></p> 
