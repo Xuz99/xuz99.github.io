@@ -99,11 +99,11 @@ a:hover::after {
 }
 
 .content-bg {
-	background-image: url('/images/aboutme-bg.jpg');
-	background-repeat:repeat-y;
+  background-image: url('/images/aboutme-bg.svg');
 	background-attachment: scroll;
 	object-fit: fill;
 }
+ 
 .wordCarousel div {
 		overflow: hidden ;
         position: relative;
