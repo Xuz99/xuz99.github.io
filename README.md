@@ -1,6 +1,15 @@
-# Hi
-Welcome to my GitHub Pages site.
+![This is an image saying hello in text](/image/sample.png "This is an image saying hello in text")
 
-here you can find links to my most recent work and of course, my github page.
+## Welcome to my GitHub Pages site.
 
-If you would like to contact me about work or just to chat, please do. 
+Here you can find all the code that was written to build/style my portfolio [website](https://johndavidson.dev/).
+
+If you would like to contact me about anything, please do. 
+Email: [contact@johndavidson.dev](contact@johndavidson.dev)
+
+
+## This portfolio website was:
+* Designed using [InVision](https://www.invisionapp.com/)
+* Coded with [SublimeText3](https://www.sublimetext.com/3)
+* Developed with { 💓 } using [Tailwind](https://tailwindcss.com/)
+* Hosted here [GitHub Pages](https://pages.github.com/)
