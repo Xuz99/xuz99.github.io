@@ -1,4 +1,4 @@
-![This is an image saying hello in text](/image/sample.png "This is an image saying hello in text")
+![This is an image saying hello in text](hello.png "This is an image saying hello in text")
 
 ## Welcome to my GitHub Pages site.
 
