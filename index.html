@@ -139,24 +139,7 @@
 		<section class="mt-20">
 		<h2 class="text-white text-6xl text-center mb-5">My travels</h2>
 		<hr class="mb-10 mx-10">
-			<div id="instafeed" class="grid md:grid-cols-4 gap-10 flex-col  md:mt-0 md:space-y-0 space-y-5 mx-5 md:mx-10">
-				<script type="text/javascript">
-					var feed = new Instafeed({
-					accessToken: InstagramToken,
-					limit: 12,
-					template: `<figure class="photo shadow-lg bg-black text-white overflow-hidden rounded-lg">
-							<a class="cursor-pointer" href="{{link}}" target="_blank">
-								<img src="{{image}}" alt="" class="w-full h-60 object-cover hover:opacity-75 ease-in duration-200">
-							</a>
-							<figcaption class="m-4 leading-7">
-								<span class="block">{{caption}}</span>
-							</figcaption>
-							</figure>    
-							`,
-						});
-					feed.run();
-				</script>
-			</div>
+			<div id="instafeed" class="grid md:grid-cols-4 gap-10 flex-col  md:mt-0 md:space-y-0 space-y-5 mx-5 md:mx-10"></div>
 			<div class="flex justify-center">
 				<a class="hide-a cursor-pointer text-white text-2xl mt-10 p-2 px-5 rounded-xl transition duration-200 ease-in-out insta-bg-g transform hover:-translate-y-1 hover:scale-110" href="https://www.instagram.com/not_vagabond/" target="_blank">
 						My instagram
