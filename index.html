@@ -46,6 +46,9 @@
 	<script src="instafeed.min.js"></script>
 </head>
 <body>
+	<div id="Loader" class="loader-wrapper">
+		<span id="Loader-content" class="pre-loader"><span class="pre-loader-inner"></span></span>
+	</div>
 <header class="text-white text-center mt-10">
 	<h1 class="flex flex-row justify-center text-6xl hello-h1 wordCarousel jd-text-colour">
 		<div> 
@@ -183,6 +186,18 @@
 			aboutme.classList.add("hidden");
 		}
 		});
+
+		const loader = doc.querySelector("#Loader");
+		const loaderContent = doc.querySelector("#Loader-content");
+		window.addEventListener('DOMContentLoaded', () =>
+		setTimeout(function() {
+			loader.classList.add("hide-loader")
+			loaderContent.classList.add("hide-loader")
+			console.log(loader)
+			console.log(loaderContent)
+		}, 2000));
+
+		
 	</script>
 </footer>
 </body>
