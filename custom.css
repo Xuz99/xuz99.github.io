@@ -271,7 +271,11 @@ a:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: 100;
+}
+
+.loader-wrapper::-webkit-scrollbar {
+  display: none;
 }
 .pre-loader {
   display: inline-block;
