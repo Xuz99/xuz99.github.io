@@ -45,9 +45,9 @@
 	<script src="https://ig.instant-tokens.com/users/c0861264-b28b-47aa-9c53-937a3f99e44f/instagram/17841403831661412/token.js?userSecret=hl3c6559495pu0x14cxcy"></script>
 	<script src="instafeed.min.js"></script>
 </head>
-<body>
+<body style="overflow: hidden;">
 	<div id="Loader" class="loader-wrapper">
-		<p class="text-4xl jd-text-colour tracking-widest">johndavidson.dev</p><span id="Loader-content" class="ml-2 pre-loader"><span class="pre-loader-inner"></span></span>
+		<p class="md:text-4xl text-2xl jd-text-colour tracking-widest">johndavidson.dev</p><span id="Loader-content" class="ml-2 pre-loader"><span class="pre-loader-inner"></span></span>
 	</div>
 <header class="text-white text-center mt-10">
 	<h1 class="flex flex-row justify-center text-6xl hello-h1 wordCarousel jd-text-colour">
@@ -187,15 +187,21 @@
 		}
 		});
 
+	// Preloader
 		const loader = doc.querySelector("#Loader");
 		const loaderContent = doc.querySelector("#Loader-content");
+		const body = doc.getElementsByTagName("BODY")[0];
+
 		window.addEventListener('DOMContentLoaded', () =>
 		setTimeout(function() {
 			loader.classList.add("hide-loader")
 			loaderContent.classList.add("hide-loader")
 		}, 1500));
 
-		
+		window.addEventListener('DOMContentLoaded', () =>
+		setTimeout(function() {
+			body.removeAttribute("style", "overflow: hidden;")
+		}, 1600));
 	</script>
 </footer>
 </body>
