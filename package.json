@@ -1,5 +1,5 @@
 {
-  "name": "xuz99-portfolio-site",
+  "name": "johndavidson-dev-portfolio-site",
   "version": "1.0.0",
   "description": "A simple and static portfolio website to showcase my projects",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "minimal",
     "portfolio"
   ],
-  "author": "John Davidson",
+  "author": "John Davidson <contact@johndavidson.dev>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Xuz99/xuz99.github.io/issues"
