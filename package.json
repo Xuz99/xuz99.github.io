@@ -1,7 +1,7 @@
 {
   "name": "johndavidson-dev-portfolio-site",
   "version": "1.0.0",
-  "description": "A simple and static portfolio website to showcase my projects",
+  "description": "A simple and semi-static portfolio website to showcase my coding projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
