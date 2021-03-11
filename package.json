@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx ws -v -p 3000",
-    "build": "npx ws -v -p 3000"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.1",
     "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "snowpack": "^3.0.13"
   }
 }
