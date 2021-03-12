@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "snowpack dev",
-    "build": "snowpack build",
-    "dev": "vite"
+    "start": "vite dev",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
@@ -25,11 +24,9 @@
     "url": "https://github.com/Xuz99/xuz99.github.io/issues"
   },
   "homepage": "https://github.com/Xuz99/xuz99.github.io#readme",
-  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.1",
-    "tailwindcss": "^2.0.1",
-    "vite": "^2.0.5"
+    "tailwindcss": "^2.0.1"
   }
 }
