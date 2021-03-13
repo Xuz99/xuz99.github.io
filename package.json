@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "A simple and semi-static portfolio website to showcase my coding projects",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "vite dev",
-    "build": "vite build"
+    "start": "npx ws -v -p 3000",
+    "build": "npx ws -v -p 3000"
   },
   "repository": {
     "type": "git",
