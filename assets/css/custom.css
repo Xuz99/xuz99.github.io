@@ -28,7 +28,6 @@
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
-  animation: fade-in-scrollbar ease 2s;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -44,15 +43,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #b85050;
   transition: ease-in;
-}
-
-@keyframes fade-in-scrollbar {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
 }
 
 body {
