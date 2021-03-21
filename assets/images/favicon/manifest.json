@@ -1,5 +1,12 @@
 {
- "name": "App",
+    "name": "Portfolio website for John ",
+    "short_name": "Portfolio website for John ",
+    "theme_color": "#5d6695",
+    "background_color": "#1a1c26",
+    "display": "browser",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",

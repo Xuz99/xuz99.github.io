@@ -5,9 +5,9 @@ var feed = new Instafeed({
   limit: 12,
   template: `<figure class="photo shadow-lg bg-black text-white overflow-hidden rounded-lg">
             <a class="cursor-pointer" href="{{link}}" target="_blank">
-                <img src="{{image}}" alt="" class="w-full h-60 object-cover hover:opacity-75 ease-in duration-200">
+                <img src="{{image}}" alt="" class="w-full h-80 object-cover hover:opacity-75 ease-in duration-200">
             </a>
-            <figcaption class="m-4 leading-7">
+            <figcaption class="m-4  overflow-auto h-24 leading-7">
                 <span class="block">{{caption}}</span>
             </figcaption>
             </figure>    
