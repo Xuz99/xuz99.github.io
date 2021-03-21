@@ -37,7 +37,6 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #aa655e;
-
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
@@ -47,7 +46,7 @@
 
 body {
   background-color: #1a1c26;
-  font-family: FiraSans-Regular, Helvetica, Arial, sans-serif; 
+  font-family: FiraSans-Regular, Helvetica, Arial, sans-serif;
 }
 header {
   font-family: FiraSans-Light, Helvetica, Arial, sans-serif;
@@ -145,10 +144,49 @@ a:hover::after {
   background-color: rgba(17, 24, 39, 0.9);
 }
 
+.about-me-bg {
+  background-image: url("../images/aboutme-bg.svg");
+  background-attachment: scroll;
+  object-fit: fill;
+  animation: about-me-transition 1000ms forwards ease-in;
+}
+
+@keyframes about-me-transition {
+  0% {
+    visibility: hidden;
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    transform: translateX(1);
+    opacity: 1;
+  }
+}
+
 .hide-a:hover::after {
   visibility: visible;
   transform: scaleX(0);
   background-color: #99746f;
+}
+
+.portfolio-card {
+  animation: portfolio-card-scale 2000ms forwards ease-in 1500ms;
+}
+
+@keyframes portfolio-card-scale {
+  0% {
+    visibility: hidden;
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    transform: translateX(1);
+    opacity: 1;
+  }
 }
 
 .insta-bg-g {
@@ -168,12 +206,6 @@ a:hover::after {
 .hello-h1 {
   font-family: FiraSans-Medium, Arial, Helvetica, sans-serif;
   color: #aa655e;
-}
-
-.content-bg {
-  background-image: url("../images/aboutme-bg.svg");
-  background-attachment: scroll;
-  object-fit: fill;
 }
 
 .wordCarousel div {
