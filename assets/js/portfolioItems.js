@@ -4,7 +4,7 @@ const portfolioData = [
     itemLink: "https://github.com/Xuz99",
     itemImgSrc: "/assets/images/github.svg",
     itemImgAlt: "Github profile Isometric icon",
-    itemTitle: "Github profile icon",
+    itemTitle: "Github profile",
     itemDescription:
       "My personal Github profile with a collection of my active repos.",
   },
