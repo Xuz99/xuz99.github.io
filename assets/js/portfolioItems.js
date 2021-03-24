@@ -14,7 +14,7 @@ const portfolioData = [
     itemImgAlt: "Inverted Mountain Isometric icon",
     itemTitle: "Inverted Mountain",
     itemDescription:
-      'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-yellow-500">Phoenix <a>backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500">Tailwind</a> and made with love by the indie games community. </span>',
+      'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-blue-500" target="_blank">Phoenix <a>backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500" target="_blank">Tailwind</a> and made with love by the indie games community. </span>',
   },
   {
     itemLink: "https://www.youtube.com/watch?v=HMLguRWAMSc",
@@ -32,6 +32,14 @@ const portfolioData = [
     itemTitle: "Phúc UI High Fidelity Prototype",
     itemDescription:
       "A Vietnamese aesthetics inspired WordPress Theme. Currently being built. But the UI prototype is viewable. This is to flesh out the final design, flexing my UI/UX design muscles, focusing on mobile first and built using inVision. This theme is aimed at Individuals, freelancers, artists and anyone looking for a simple modern theme to publish their work online via WordPress.",
+  },
+  {
+    itemLink: "https://github.com/Xuz99/projectNo2-playerAttackGame",
+    itemImgSrc: "/assets/images/playerAttack.svg",
+    itemImgAlt: "Elm Player Attack Isometric icon",
+    itemTitle: "Elm Player Attack Game",
+    itemDescription:
+      'Front-end web app/game of a player attacking a enemy game, with a win screen. Built as an introduction into functional language Elm and how to build a game. Deployed from a GitHub repo using netlify. <a href="https://nervous-curran-955cb1.netlify.app" target="_blank" class="text-blue-500">Live Demo</a>',
   },
 ];
 
