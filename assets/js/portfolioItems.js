@@ -1,5 +1,4 @@
 // Template literal for my portfolio items
-
 const portfolioData = [
   {
     itemLink: "https://github.com/Xuz99",
@@ -15,7 +14,7 @@ const portfolioData = [
     itemImgAlt: "Inverted Mountain Isometric icon",
     itemTitle: "Inverted Mountain",
     itemDescription:
-      'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-yellow-500">Phoenix <a>backend, styled using<a href="https://tailwindcss.com/" class="text-blue-500">Tailwind</a> and made with love by the indie games community. </span>',
+      'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-yellow-500">Phoenix <a>backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500">Tailwind</a> and made with love by the indie games community. </span>',
   },
   {
     itemLink: "https://www.youtube.com/watch?v=HMLguRWAMSc",
@@ -26,12 +25,13 @@ const portfolioData = [
       '<span class="line-through opacity-50">My personal blog called "Short Breaks" where I post writing content weekly about tech and interesting topics I like to write about.</span > Currently under construction!</span >',
   },
   {
-    itemLink: "https://www.youtube.com/watch?v=HMLguRWAMSc",
-    itemImgSrc: "/assets/images/break.svg",
-    itemImgAlt: "Short Breaks Blog Isometric icon",
-    itemTitle: "Short Breaks",
+    itemLink:
+      "https://invertedmountain.invisionapp.com/console/Phuc-Theme-ckhf1wvam00vt017j5bs7hfg2/ckhi85pwk04iw019j06que56x/plays",
+    itemImgSrc: "/assets/images/phuc.svg",
+    itemImgAlt: "Phúc Isometric icon",
+    itemTitle: "Phúc UI High Fidelity Prototype",
     itemDescription:
-      '<span class="line-through opacity-50">My personal blog called "Short Breaks" where I post writing content weekly about tech and interesting topics I like to write about.</span > Currently under construction!</span >',
+      "A Vietnamese aesthetics inspired WordPress Theme. Currently being built. But the UI prototype is viewable. This is to flesh out the final design, flexing my UI/UX design muscles, focusing on mobile first and built using inVision. This theme is aimed at Individuals, freelancers, artists and anyone looking for a simple modern theme to publish their work online via WordPress.",
   },
 ];
 
