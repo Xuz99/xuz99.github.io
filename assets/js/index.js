@@ -1,5 +1,4 @@
 // Template literal for my instagram feed
-
 var feed = new Instafeed({
   accessToken: InstagramToken,
   limit: 12,
