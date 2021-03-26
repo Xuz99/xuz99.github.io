@@ -26,7 +26,7 @@ const portfolioData = [
   },
   {
     itemLink:
-      "https://invertedmountain.invisionapp.com/console/Phuc-Theme-ckhf1wvam00vt017j5bs7hfg2/ckhi85pwk04iw019j06que56x/plays",
+      "https://invertedmountain.invisionapp.com/console/share/XU1SJGC1NC/495987524",
     itemImgSrc: "/assets/images/phuc.svg",
     itemImgAlt: "Phúc Isometric icon",
     itemTitle: "Phúc UI High Fidelity Prototype",
@@ -34,7 +34,7 @@ const portfolioData = [
       "A Vietnamese aesthetics inspired WordPress Theme. Currently being built. But the UI prototype is viewable. This is to flesh out the final design, flexing my UI/UX design muscles, focusing on mobile first and built using inVision. This theme is aimed at Individuals, freelancers, artists and anyone looking for a simple modern theme to publish their work online via WordPress.",
   },
   {
-    itemLink: "https://github.com/Xuz99/projectNo2-playerAttackGame",
+    itemLink: "https://nervous-curran-955cb1.netlify.app",
     itemImgSrc: "/assets/images/playerAttack.svg",
     itemImgAlt: "Elm Player Attack Isometric icon",
     itemTitle: "Elm Player Attack Game",
