@@ -171,24 +171,6 @@ a:hover::after {
   background-color: #99746f;
 }
 
-.portfolio-card {
-  animation: portfolio-card-scale 2000ms forwards ease-in 1500ms;
-}
-
-@keyframes portfolio-card-scale {
-  0% {
-    visibility: hidden;
-    transform: translateX(0);
-    opacity: 0;
-  }
-
-  100% {
-    visibility: visible;
-    transform: translateX(1);
-    opacity: 1;
-  }
-}
-
 .insta-bg-g {
   background: rgb(48, 66, 236);
   background: linear-gradient(
