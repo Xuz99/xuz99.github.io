@@ -17,7 +17,7 @@ const portfolioData = [
     itemImgAlt: "Inverted Mountain Isometric icon",
     itemTitle: "Inverted Mountain",
     itemDescription:
-      'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-blue-500" target="_blank">Phoenix</a> backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500" target="_blank">Tailwind</a> and made with love by the indie games community. </span>',
+      'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-blue-500" target="_blank">Phoenix</a> backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500" target="_blank">Tailwind</a> and made with love by myself! </span>',
   },
   {
     itemLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -86,7 +86,7 @@ function portfolioTemplate(data) {
         target="_blank"
         >
         <img
-          class="ml-1 w-16 h-16 mb-2 fill-current text-white"
+          class="ml-1 w-14 h-14 mb-2 fill-current text-white"
           src="assets/images/github-icon.svg"
           alt="${data.itemImgAlt}"
           title="${data.itemTitle + " - Repo"}"
@@ -99,7 +99,7 @@ function portfolioTemplate(data) {
         target="_blank"
         >
         <img
-          class="ml-1 w-16 h-16 mb-2 fill-current text-white"
+          class="ml-1 w-14 h-14 mb-2 fill-current text-white"
           src="assets/images/globe.svg"
           alt="${data.itemImgAlt}"
           title="${data.itemTitle + " - Live demo"}"
