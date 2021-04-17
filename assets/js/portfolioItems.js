@@ -99,7 +99,7 @@ function portfolioTemplate(data) {
         target="_blank"
         >
         <img
-          class="ml-1 w-14 h-14 mb-2 fill-current text-white"
+          class="ml-2 w-14 h-14 mb-2 fill-current text-white"
           src="assets/images/globe.svg"
           alt="${data.itemImgAlt}"
           title="${data.itemTitle + " - Live demo"}"
