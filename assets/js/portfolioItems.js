@@ -17,7 +17,7 @@ const portfolioData = [
     itemImgAlt: "Inverted Mountain Isometric icon",
     itemTitle: "Inverted Mountain",
     itemDescription:
-      'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-blue-500" target="_blank">Phoenix <a>backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500" target="_blank">Tailwind</a> and made with love by the indie games community. </span>',
+      'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-blue-500" target="_blank">Phoenix</a> backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500" target="_blank">Tailwind</a> and made with love by the indie games community. </span>',
   },
   {
     itemLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
