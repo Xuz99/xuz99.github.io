@@ -40,6 +40,16 @@ const portfolioData = [
       "A Vietnamese aesthetics inspired WordPress Theme. Currently being built. But the UI prototype is viewable. This is to flesh out the final design, flexing my UI/UX design muscles, focusing on mobile first and built using inVision. This theme is aimed at Individuals, freelancers, artists and anyone looking for a simple modern theme to publish their work online via WordPress.",
   },
   {
+    itemLink: "https://rapunzel2812.surge.sh/",
+    itemRepoLink: "https://github.com/Xuz99/Rapunzel-2812",
+    hasDemoAndGitLink: true,
+    itemImgSrc: "/assets/images/rapunzel.svg",
+    itemImgAlt: "Rapunzel 2812 - jQuery Story Teller Isometric icon",
+    itemTitle: "Rapunzel 2812 - jQuery Story Teller",
+    itemDescription:
+      "A jQuery story teller app telling a reinterpretation of the story of Rapunzel 1812. The website was made in 2017 as an end of university year group project with Fraser Marriott, and myself John Davidson. Deployed using Surge.sh",
+  },
+  {
     itemLink: "https://nervous-curran-955cb1.netlify.app",
     itemRepoLink: "https://github.com/Xuz99/projectNo2-playerAttackGame",
     hasDemoAndGitLink: true,
