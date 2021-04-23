@@ -352,14 +352,15 @@ a:hover::after {
 
 @keyframes move-preloader {
   0% {
-    font-size: 0;
-    transition: font-size 200ms;
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
   }
   50%{
     transform: translateY(0);
   }
   100% {
-    font-size: 3.75rem;
     transform: translateY(-43vh);
   }
 }
@@ -368,16 +369,17 @@ a:hover::after {
   display: none;
 }
 
-.hide-loader {
-  animation: hide-preloader 2s ease-in-out;
+/* Applied to DOM using js*/
+.fade-loader {
+  animation: fade-preloader 2s ease-in-out;
   animation-fill-mode: forwards;
 }
 
-@keyframes hide-preloader {
+@keyframes fade-preloader {
   0% {
-    opacity:1;
+    opacity: 1;
   }
   100% {
-    opacity:0;
+    opacity: 0;
   }
 }
