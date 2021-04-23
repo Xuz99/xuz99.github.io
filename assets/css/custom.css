@@ -206,13 +206,14 @@ a:hover::after {
 }
 
 .flip2 {
-  animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+  animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite ;
 }
 .flip3 {
   animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 .flip4 {
   animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+  animation-delay: 4.5s;
 }
 
 @keyframes flip2 {
@@ -296,85 +297,87 @@ a:hover::after {
   }
 }
 
+
+/* Loader background */
 .loader-wrapper {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #1a1c26;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 3;
+  transition: 2s all ease-in-out;
+}
+
+.loader-wrapper-background {
+  background: linear-gradient(45deg, #292e45, #1a1c26, #292e45, #1a1c26);
+  background-size: 800% 800%;
+
+  -webkit-animation: loaderAnimation 12s ease infinite;
+  -moz-animation: loaderAnimation 12s ease infinite;
+  -o-animation: loaderAnimation 12s ease infinite;
+  animation: loaderAnimation 12s ease infinite;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes loaderAnimation {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+@-moz-keyframes loaderAnimation {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+@-o-keyframes loaderAnimation {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+@keyframes loaderAnimation {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+
+/* Text */
+#textLoader {
+  animation: move-preloader 5s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-preloader {
+  0% {
+    font-size: 0;
+    transition: font-size 200ms;
+  }
+  50%{
+    transform: translateY(0);
+  }
+  100% {
+    font-size: 3.75rem;
+    transform: translateY(-43vh);
+  }
 }
 
 .loader-wrapper::-webkit-scrollbar {
   display: none;
 }
-.pre-loader {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  border: 4px solid #fff;
-  color: #aa655e;
-  font-size: 50px;
-  animation: pre-loader 2s infinite ease;
-}
-.pre-loader-inner {
-  vertical-align: top;
-  display: inline-block;
-  width: 100%;
-  background-color: #aa655e;
-  animation: pre-loader-inner 2s infinite ease-in;
-}
 
 .hide-loader {
-  animation: hide-preloader 300ms ease-out;
+  animation: hide-preloader 2s ease-in-out;
   animation-fill-mode: forwards;
 }
 
 @keyframes hide-preloader {
   0% {
-    transform: translateY(0);
+    opacity:1;
   }
   100% {
-    transform: translateY(-100%);
-  }
-}
-
-@keyframes pre-loader {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(180deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  75% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes pre-loader-inner {
-  0% {
-    height: 0%;
-  }
-  25% {
-    height: 0%;
-  }
-  50% {
-    height: 100%;
-  }
-  75% {
-    height: 100%;
-  }
-  100% {
-    height: 0%;
+    opacity:0;
   }
 }

@@ -41,11 +41,11 @@ window.addEventListener("DOMContentLoaded", () =>
   setTimeout(function () {
     loader.classList.add("hide-loader");
     loaderContent.classList.add("hide-loader");
-  }, 1500)
+  }, 4900)
 );
 
 window.addEventListener("DOMContentLoaded", () =>
   setTimeout(function () {
     body.removeAttribute("style", "overflow: hidden;");
-  }, 1600)
+  }, 5000)
 );
