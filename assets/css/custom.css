@@ -116,8 +116,10 @@ a:hover::after {
 
 .intro-text-fade {
   opacity: 0;
-  animation: text-fade 2s ease-in-out 5500ms forwards;
+  animation: text-fade 1500ms ease-in-out  forwards;
 }
+
+/* Need to add 5500ms delay to above when you restart the loader */
 
 @keyframes text-fade {
   0%{
@@ -156,8 +158,10 @@ a:hover::after {
 
 .item-fadein {
   opacity: 0;
-  animation: text-fade 2s ease-in-out 7000ms forwards;
+  animation: text-fade 3s ease-in-out forwards;
 }
+
+/* Need to add 7000ms delay to above when you restart the loader */
 
 @keyframes item-fade {
   0%{

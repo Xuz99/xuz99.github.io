@@ -33,23 +33,23 @@ toggleBtn.addEventListener("click", (event) => {
 });
 
 // Website Preloader
-const loader = doc.querySelector("#Loader");
+// const loader = doc.querySelector("#Loader");
 const body = doc.getElementsByTagName("BODY")[0];
 
-window.addEventListener("DOMContentLoaded", () =>
-  setTimeout(function () {
-    loader.classList.add("fade-loader");
-  }, 4900)
-);
+// window.addEventListener("DOMContentLoaded", () =>
+//   setTimeout(function () {
+//     loader.classList.add("fade-loader");
+//   }, 4900)
+// );
 
-window.addEventListener("DOMContentLoaded", () =>
-  setTimeout(function () {
-    loader.parentNode.removeChild(loader);
-  }, 6000)
-);
+// window.addEventListener("DOMContentLoaded", () =>
+//   setTimeout(function () {
+//     loader.parentNode.removeChild(loader);
+//   }, 6000)
+// );
 
 window.addEventListener("DOMContentLoaded", () =>
   setTimeout(function () {
     body.removeAttribute("style", "overflow: hidden;");
-  }, 6500)
+  }, 0)
 );
