@@ -59,35 +59,9 @@ footer {
 hr {
   border: 0px;
   height: 3px;
-  background: linear-gradient(270deg, #3e00ff, #3d39e6);
-  background-size: 400% 400%;
-
-  -webkit-animation: hr-gradient 30s ease infinite;
-  -moz-animation: hr-gradient 30s ease infinite;
-  -o-animation: hr-gradient 30s ease infinite;
-  animation: hr-gradient 30s ease infinite;
-}
-
-@-webkit-keyframes hr-gradient {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@-moz-keyframes hr-gradient {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@-o-keyframes hr-gradient {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@keyframes hr-gradient {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+ }
 
 a {
   position: relative;
