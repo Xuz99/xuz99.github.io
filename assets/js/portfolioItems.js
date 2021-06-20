@@ -1,15 +1,6 @@
 // Template literal for my portfolio items
 const portfolioData = [
   {
-    itemLink: "https://github.com/Xuz99",
-    hasDemoAndGitLink: false,
-    itemImgSrc: "/assets/images/github.svg",
-    itemImgAlt: "Github profile Isometric icon",
-    itemTitle: "Github profile",
-    itemDescription:
-      "My personal Github profile with a collection of my active repos.",
-  },
-  {
     itemLink: "https://inmountapp.surge.sh/",
     itemRepoLink: "https://github.com/Xuz99/Inverted-Mountain-React-version",
     hasDemoAndGitLink: true,
@@ -18,16 +9,6 @@ const portfolioData = [
     itemTitle: "Inverted Mountain",
     itemDescription:
       'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-blue-500" target="_blank">Phoenix</a> backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500" target="_blank">Tailwind</a> and made with love by myself! </span>',
-  },
-  {
-    itemLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    itemRepoLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    hasDemoAndGitLink: false,
-    itemImgSrc: "/assets/images/break.svg",
-    itemImgAlt: "Short Breaks Blog Isometric icon",
-    itemTitle: "Short Breaks",
-    itemDescription:
-      '<span class="line-through opacity-50">My personal blog called "Short Breaks" where I post writing content weekly about tech and interesting topics I like to write about.</span > Currently under construction!</span >',
   },
   {
     itemLink:
@@ -127,3 +108,25 @@ document.getElementById("Portfolio").innerHTML = `${portfolioData
   .map(portfolioTemplate)
   .join("")}
 `;
+
+
+
+// {
+//   itemLink: "https://github.com/Xuz99",
+//   hasDemoAndGitLink: false,
+//   itemImgSrc: "/assets/images/github.svg",
+//   itemImgAlt: "Github profile Isometric icon",
+//   itemTitle: "Github profile",
+//   itemDescription:
+//     "My personal Github profile with a collection of my active repos.",
+// },
+// {
+//   itemLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+//   itemRepoLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+//   hasDemoAndGitLink: false,
+//   itemImgSrc: "/assets/images/break.svg",
+//   itemImgAlt: "Short Breaks Blog Isometric icon",
+//   itemTitle: "Short Breaks",
+//   itemDescription:
+//     '<span class="line-through opacity-50">My personal blog called "Short Breaks" where I post writing content weekly about tech and interesting topics I like to write about.</span > Currently under construction!</span >',
+// },
