@@ -31,6 +31,15 @@ const portfolioData = [
       "A jQuery story teller app telling a reinterpretation of the story of Rapunzel 1812. The website was made in 2017 as an end of university year group project with Fraser Marriott, and myself John Davidson. Deployed using Surge.sh",
   },
   {
+    itemLink: "https://acousticconsultantedinburgh.co.uk/",
+    hasDemoAndGitLink: false,
+    itemImgSrc: "/assets/images/thomsonacoustics.svg",
+    itemImgAlt: "Thomson Acoustics Isometric icon of blog",
+    itemTitle: "Thomson Acoustic Engineering",
+    itemDescription:
+      "The web presence for Thomson Acoustic Engineering. Built within WordPress, from a heavily edited theme (Zereif). Custom contact form, site branding, blog and continues adjustment and updates, as needed by the client.",
+  },
+  {
     itemLink: "https://nervous-curran-955cb1.netlify.app",
     itemRepoLink: "https://github.com/Xuz99/projectNo2-playerAttackGame",
     hasDemoAndGitLink: true,
