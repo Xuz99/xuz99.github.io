@@ -51,13 +51,16 @@
 body {
   background-color: #1a1c26;
   font-family: FiraSans-Regular, Helvetica, Arial, sans-serif;
+  font-display: swap;
 }
 header {
   font-family: FiraSans-Light, Helvetica, Arial, sans-serif;
+  font-display: swap;
 }
 
 footer {
   font-family: FiraSans-light, Helvetica, Arial, sans-serif;
+  font-display: swap;
 }
 
 hr {
