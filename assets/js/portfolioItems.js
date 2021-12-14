@@ -40,14 +40,13 @@ const portfolioData = [
       "The web presence for Thomson Acoustic Engineering. Built within WordPress, from a heavily edited theme (Zereif). Custom contact form, site branding, blog and continues adjustment and updates, as needed by the client.",
   },
   {
-    itemLink: "https://nervous-curran-955cb1.netlify.app",
-    itemRepoLink: "https://github.com/Xuz99/projectNo2-playerAttackGame",
-    hasDemoAndGitLink: true,
-    itemImgSrc: "/assets/images/playerAttack.svg",
-    itemImgAlt: "Elm Player Attack Isometric icon",
-    itemTitle: "Elm Player Attack Game",
+    itemLink: "https://github.com/Xuz99",
+    hasDemoAndGitLink: false,
+    itemImgSrc: "/assets/images/github.svg",
+    itemImgAlt: "Github profile Isometric icon",
+    itemTitle: "Github profile",
     itemDescription:
-      "Front-end web app/game of a player attacking a enemy game, with a win screen. Built as an introduction into functional language Elm and how to build a game. Deployed from a GitHub repo using netlify.",
+      "My personal Github profile with a collection of my active repos.",
   },
 ];
 
@@ -117,25 +116,3 @@ document.getElementById("Portfolio").innerHTML = `${portfolioData
   .map(portfolioTemplate)
   .join("")}
 `;
-
-
-
-// {
-//   itemLink: "https://github.com/Xuz99",
-//   hasDemoAndGitLink: false,
-//   itemImgSrc: "/assets/images/github.svg",
-//   itemImgAlt: "Github profile Isometric icon",
-//   itemTitle: "Github profile",
-//   itemDescription:
-//     "My personal Github profile with a collection of my active repos.",
-// },
-// {
-//   itemLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-//   itemRepoLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-//   hasDemoAndGitLink: false,
-//   itemImgSrc: "/assets/images/break.svg",
-//   itemImgAlt: "Short Breaks Blog Isometric icon",
-//   itemTitle: "Short Breaks",
-//   itemDescription:
-//     '<span class="line-through opacity-50">My personal blog called "Short Breaks" where I post writing content weekly about tech and interesting topics I like to write about.</span > Currently under construction!</span >',
-// },
