@@ -8,6 +8,7 @@
 @font-face {
   font-family: FiraSans-Light;
   src: url(fira_sans/FiraSans-Light.ttf);
+  font-display: swap;
 }
 .firasans-lt {
   font-family: FiraSans-Light, Helvetica, Arial, sans-serif;
@@ -15,6 +16,7 @@
 @font-face {
   font-family: FiraSans-Medium;
   src: url(fira_sans/FiraSans-Medium.ttf);
+  font-display: swap;
 }
 .firasans-md {
   font-family: FiraSans-Medium, Helvetica, Arial, sans-serif;
@@ -22,6 +24,7 @@
 @font-face {
   font-family: FiraSans-Regular;
   src: url(fira_sans/FiraSans-Regular.ttf);
+  font-display: swap;
 }
 .firasans-rg {
   font-family: FiraSans-Regular, Helvetica, Arial, sans-serif;
@@ -51,16 +54,13 @@
 body {
   background-color: #1a1c26;
   font-family: FiraSans-Regular, Helvetica, Arial, sans-serif;
-  font-display: swap;
 }
 header {
   font-family: FiraSans-Light, Helvetica, Arial, sans-serif;
-  font-display: swap;
 }
 
 footer {
   font-family: FiraSans-light, Helvetica, Arial, sans-serif;
-  font-display: swap;
 }
 
 hr {
