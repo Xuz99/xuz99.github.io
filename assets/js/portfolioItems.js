@@ -8,7 +8,7 @@ const portfolioData = [
     itemImgAlt: "Inverted Mountain Isometric icon",
     itemTitle: "Inverted Mountain",
     itemDescription:
-      'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-blue-500" target="_blank">Phoenix</a> backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500" target="_blank">Tailwind</a> and made with love by myself! </span>',
+      'Business website for indie games studio "inVERTed mOUNTAIn" built using React for the newsletter API to a <a href="https://www.phoenixframework.org/" class="text-blue-500" target="_blank" rel="noopener">Phoenix</a> backend, styled using <a href="https://tailwindcss.com/" class="text-blue-500" target="_blank" rel="noopener">Tailwind</a> and made with love by myself! </span>',
   },
   {
     itemLink:
@@ -54,12 +54,12 @@ function portfolioTemplate(data) {
   if (data.hasDemoAndGitLink === false) {
     return `
     <figure class="transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 shadow-lg bg-black text-white overflow-hidden rounded-lg" >
-      <a class="cursor-pointer" href="${data.itemLink}" target="_blank">
+      <a class="cursor-pointer" href="${data.itemLink}" target="_blank" rel="noopener">
         <img src="${data.itemImgSrc}" alt="${data.itemImgAlt}" 
         class="w-full h-60 object-cover hover:opacity-75 ease-in duration-200"/>
       </a>
       <figcaption class="m-4 leading-7">
-        <a class="cursor-pointer" href="${data.itemLink}" target="_blank" >
+        <a class="cursor-pointer" href="${data.itemLink}" target="_blank" rel="noopener">
           <span class="jd-text-colour firasans-md text-xl">${data.itemTitle}</span>
         </a>
           <span class="block">${data.itemDescription}</span>
@@ -69,12 +69,12 @@ function portfolioTemplate(data) {
   } else {
     return `
 <figure class="transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 shadow-lg bg-black text-white overflow-hidden rounded-lg" >
-  <a class="cursor-pointer" href="${data.itemLink}" target="_blank">
+  <a class="cursor-pointer" href="${data.itemLink}" target="_blank" rel="noopener">
     <img src="${data.itemImgSrc}" alt="${data.itemImgAlt}" 
     class="w-full h-60 object-cover hover:opacity-75 ease-in duration-200"/>
   </a>
   <figcaption class="m-4 leading-7">
-    <a class="cursor-pointer" href="${data.itemLink}" target="_blank" >
+    <a class="cursor-pointer" href="${data.itemLink}" target="_blank" rel="noopener">
       <span class="jd-text-colour firasans-md text-xl">${data.itemTitle}</span>
     </a>
       <span class="block">${data.itemDescription}</span>
@@ -83,6 +83,7 @@ function portfolioTemplate(data) {
         class="text-center cursor-pointer animited-underline" 
         href="${data.itemRepoLink}"
         target="_blank"
+        rel="noopener"
         >
         <img
           class="ml-1 w-14 h-14 mb-2 fill-current text-white"
@@ -96,6 +97,7 @@ function portfolioTemplate(data) {
         class="text-center cursor-pointer animited-underline" 
         href="${data.itemLink}"
         target="_blank"
+        rel="noopener"
         >
         <img
           class="ml-2 w-14 h-14 mb-2 fill-current text-white"
