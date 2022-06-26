@@ -73,11 +73,11 @@
             traveller</span>.
         </p>
         <button id="Btn" type="button"
-          class="cursor-pointer mt-5 p-2 px-5 rounded-xl transition duration-200 ease-in-out bg-blue-900 hover:bg-blue-600 transform hover:-translate-y-1 hover:scale-110"
-        >
-          about me
+          class="cursor-pointer mt-5 p-2 px-5 rounded-xl transition duration-200 ease-in-out bg-blue-900 hover:bg-blue-600 transform hover:-translate-y-1 hover:scale-110" >
+            about me
         </button>
       </section>
+
       <section id="Aboutme" class="hidden z-0 md:mx-32 lg:mx-64 about-me-bg p-5 m-5 shadow-lg rounded-lg">
         <div class="about-me grid lg:grid-cols-2 bg-gray-900 text-white p-10 rounded">
           <div>
@@ -90,7 +90,7 @@
               John J Davidson
             </h2>
             <div class="flex flex-row justify-center space-x-5 p-5">
-              <a href="mailto:contact@johndavidson.dev" title="Contact me via email">
+              <a onclick="copyToClipBoard(event)" href="mailto:contact@johndavidson.dev" title="Contact me via email">
                 <i class="fas fa-envelope-square text-6xl"></i>
               </a>
               <a href="https://github.com/Xuz99/xuz99.github.io" target="_blank" title="My github profile" rel="noopener">
@@ -118,6 +118,7 @@
           </article>
         </div>
       </section>
+
     </header>
     <main class="my-20 item-fadein">
       <!-- Portfolio -->

@@ -32,3 +32,14 @@ toggleBtn.addEventListener("click", (event) => {
   }
 });
 
+
+// Copy email to clipboard
+function copyToClipBoard(event) {
+  event.preventDefault();
+  navigator.clipboard.writeText("contact@johndavidson.dev").then(() => {
+    console.log("Copied:")
+  }, () => {
+    console.log("Failed ")
+  });
+  alert("Copied the text: contact@johndavidson.dev");
+}
