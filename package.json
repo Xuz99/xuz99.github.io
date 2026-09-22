@@ -27,7 +27,7 @@
   "homepage": "https://github.com/Xuz99/xuz99.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^10.1.0",
-    "postcss": "^8.2.1",
+    "postcss": "^8.5.28",
     "tailwindcss": "^2.0.1"
   }
 }
